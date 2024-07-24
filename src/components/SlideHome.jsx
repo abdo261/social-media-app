@@ -40,6 +40,7 @@ export default function SlideHome() {
           clickable: true,
         }}
         className="mySwiper w-full h-[200px]"
+        grabCursor={true}
       >
         <SwiperSlide className="bg-white text-black flex items-center justify-center rounded-md text-center h-full">
           Slide 1

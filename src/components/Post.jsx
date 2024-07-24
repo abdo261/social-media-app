@@ -2,6 +2,7 @@ import { User } from "@nextui-org/react";
 import DropDownOptions from "./DropDownOptions";
 import PostDescription from "./PostDescription";
 import PostImageSlide from "./PostImageSlide";
+import PostFooter from "./PostFooter";
 
 const Post = ({ post }) => {
   return (
@@ -18,6 +19,7 @@ const Post = ({ post }) => {
       </div>
    <PostDescription/>
    <PostImageSlide/>
+   <PostFooter/>
     </div>
   );
 };

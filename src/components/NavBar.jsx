@@ -34,7 +34,7 @@ const NavBar = () => {
   ];
   const bathname = usePathname();
   return (
-    <nav className="fixed shadow-[0_-4px_6px_rgba(0,0,0,0.1)] sm:shadow-none dark:shadow-[0_-4px_6px_rgba(255,255,255,0.3)] z-50 sm:top-[70px] sm:bottom-auto sm:flex-col sm:w-fit sm:gap-1 transition-all ease-in-out duration-500 sm:rounded-lg sm:mt-5 sm:ml-5  bg-white dark:bg-black bottom-0 w-full flex gap-2 items-center justify-center lg:w-[300px] lg:p-7  ">
+    <nav className="fixed shadow-[0_-4px_6px_rgba(0,0,0,0.1)] sm:shadow-none sm:dark:shadow-none dark:shadow-[0_-4px_6px_rgba(255,255,255,0.3)] z-50 sm:top-[70px] sm:bottom-auto sm:flex-col sm:w-fit sm:gap-1 transition-all ease-in-out duration-500 sm:rounded-lg sm:mt-5 sm:ml-5  bg-white dark:bg-black bottom-0 w-full flex gap-2 items-center justify-center lg:w-[300px] lg:p-7  ">
       {links.map((l, i) => (
         <Link
           href={l.href}

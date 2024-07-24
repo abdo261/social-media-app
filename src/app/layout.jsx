@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       > 
         <NextUIProvider>
           <Header />
-          <main className="pb-[80px] px-3 pt-5 sm:pl-[115px] sm:pr-[315px] lg:pl-[340px] transition-all ease-in-out duration-500 ">
+          <main className="pb-[90px] px-3 pt-5 sm:pl-[115px] sm:pr-[315px] lg:pl-[340px] transition-all ease-in-out duration-500 ">
             {children} 
           </main>
           <RiteSide/>

@@ -24,6 +24,7 @@ export default function PostImageSlide() {
         modules={[Pagination, Navigation]}
         className="w-full lg:h-[300px] md:h-[200px] h-[170px]  rounded-md"
         spaceBetween={3}
+        grabCursor={true}
       >
         <SwiperSlide className='w-full h-full bg-gray-500 rounded-md flex justify-center items-center'>Image 1</SwiperSlide>
         <SwiperSlide className='w-full h-full bg-gray-500 rounded-md flex justify-center items-center'>Image 2</SwiperSlide>
